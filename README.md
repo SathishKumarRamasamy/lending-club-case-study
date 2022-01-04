@@ -43,7 +43,23 @@ In other words, the company wants to understand the **driving factors (or driver
 - Conclusion 3 from the analysis
 - Conclusion 4 from the analysis
 
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
+### Analysis removed from code for conciseness
+- Segmented Univariate analysis using installment
+- Segmented Univariate analysis using sub_grade
+- Segmented Univariate analysis using delinq_2yrs
+- Segmented Univariate analysis using number of inquiries in last 6 months
+- Segmented Univariate analysis using open credit lines
+- Segmented Univariate analysis using Public Records
+- Segmented Univariate analysis using Total Number of Credit Lines
+- Segmented Univariate analysis using Total Payment
+- Segmented Univariate analysis using Last Total Payment
+- Segmented Univariate analysis using Number of Public Record bankruptcies
+- Bivariate Analysis: Term vs Interest Rate
+- Bivariate Analysis: Term vs Annual Income
+- Bivariate Analysis: Term vs Revolving Credit Utilization
+- Bivariate Analysis: Annual Income vs Interest Rate
+- Bivariate Analysis: House Ownership vs Annual Income
+- Bivariate Analysis: Term vs dti
 
 
 ## Technologies Used
@@ -54,6 +70,9 @@ Python 3.x
 - pandas - version 1.1.4
 - matplotlib - version 3.5.1
 - seaborn - version 0.11.2
+
+## Assumptions
+- funded_amnt_inv is already included in funded_amnt. Hence, funded_amnt_inv is ignored for the analysis
 
 
 ## Contact
