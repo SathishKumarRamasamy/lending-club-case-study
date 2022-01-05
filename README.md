@@ -43,53 +43,10 @@ In other words, the company wants to understand the **driving factors (or driver
 - Conclusion 3 from the analysis
 - Conclusion 4 from the analysis
 
-### Analysis not considered in code for conciseness
-- Univariate analysis on funded_amnt
-- Univariate analysis on funded_amnt_inv
-- Univariate analysis on int_rate
-- Univariate analysis on installment
-- Univariate analysis on Loan Grade
-- Univariate analysis on Loan Sub Grade
-- Univariate analysis on annual_inc
-- Univariate analysis on Issue date
-- Univariate analysis on State
-- Univariate analysis on dti
-- Univariate analysis on delinq_2yrs
-- Univariate analysis on Earliest Credit Line
-- Univariate analysis on Number of Inquiries in the last 6 months
-- Univariate analysis on Open Credit Lines
-- Univariate analysis on Public Records
-- Univariate analysis on Revolving Balance
-- Univariate analysis on Revolving Line Util. Rate
-- Univariate analysis on Total Credit Lines
-- Univariate analysis on Payment Received for total amnt
-- Univariate analysis on Payment Received for total amnt by investors
-- Univariate analysis on Total Received Principal
-- Univariate analysis on Total Received Interest
-- Univariate analysis on Total Received Late Fee
-- Univariate analysis on recoveries
-- Univariate analysis on Charge Off Collection Fees
-- Univariate analysis on Last Payment date
-- Univariate analysis on Last Total Payment
-- Univariate analysis on Last Credit Pull Year
-- Univariate analysis on Public Record bankruptcies
-- Segmented Univariate analysis using sub_grade
-- Segmented Univariate analysis using delinq_2yrs
-- Segmented Univariate analysis using number of inquiries in last 6 months
-- Segmented Univariate analysis using open credit lines
-- Segmented Univariate analysis using Public Records
-- Segmented Univariate analysis using Total Number of Credit Lines
-- Segmented Univariate analysis using Total Payment
-- Segmented Univariate analysis using Last Total Payment
-- Segmented Univariate analysis using Number of Public Record bankruptcies
-- Segmented Univariate analysis on issue_d, zip_code, addr_state, earliest_cr_line,last_pymnt_d,last_credit_pull_d
-- Bivariate Analysis: Term vs Interest Rate
-- Bivariate Analysis: Term vs Annual Income
-- Bivariate Analysis: Term vs Revolving Credit Utilization
-- Bivariate Analysis: Annual Income vs Interest Rate
-- Bivariate Analysis: House Ownership vs Annual Income
-- Bivariate Analysis: Term vs dti
-
+### Note:
+```
+Some analyses like univarate analysis on funded amount, interest rate, segmented univariate analysis using open credit lines, bivariate analysis of term vs interest rate are removed to maintain conciseness as they didn't yield meaningful outcomes
+```
 
 ## Technologies Used
  
