@@ -38,10 +38,15 @@ In other words, the company wants to understand the **driving factors (or driver
 
 
 ## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
+- Applicants who opted for higher term (60 months) tend to default more than others. 
+- Applicants who got loan for higher interest rate tend to default more than others.
+- Applicants with home ownership as “OTHER” tend to default more likely than rest of the categories. Also, there are no defaulters in category “NONE”
+- Surprisingly, Loan Applications whose Income is verified defaults more than others by at least 2%. May be verification process needs to be revisited. 
+- Applicants whose purpose of loan is “educational” or “small business” tend to default more than other categories by huge difference between 8 % - 17 %. 
+- Applicants whose employment length is missing also shows similar pattern for 60 months
+- Applicants with 60 months term and verification status as “Source Verified” and “Verified” tend to default more than other combinations
+- Applicants with no employment length specified tend to default more for educational purpose
+
 
 ### Note:
 ```
